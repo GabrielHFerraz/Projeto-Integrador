@@ -27,7 +27,8 @@ namespace API_Projeto_Integrador.Repositories
 
         public void Insert(Categoria categoria)
         {
-            throw new NotImplementedException();
+            string sql = "INSERT INTO CATEGORIA (Nome)values(@Nome)";
+             _connection.Query(sql, categoria);
         }
 
         public void Update(Categoria categoria)
@@ -37,7 +38,7 @@ namespace API_Projeto_Integrador.Repositories
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            _connection.Query("DELETE FROM CATEGORIA WHERE ID = @id", new {id =id});
         }
     }
 }
