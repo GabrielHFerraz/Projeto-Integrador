@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API_Projeto_Integrador.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class Categorias : ControllerBase
     {
@@ -14,11 +14,22 @@ namespace API_Projeto_Integrador.Controllers
             _repository = new CategoriaRepository();
         }
 
-        [HttpGet]   
+        [HttpGet]
         public IActionResult Get()
         {
             return Ok(_repository.Get());
         }
-        
+  
+        [HttpGet("/categoria/{id}")]
+        public IActionResult Get(int id)
+        {
+            var categoria = _repository.Get(id);
+            if(categoria == null)
+            {
+                return NotFound();
+            }
+            return Ok(categoria);
+        }
+
     }
 }

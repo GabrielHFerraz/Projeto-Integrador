@@ -52,3 +52,5 @@ C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0
 C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\ref\API_Projeto_Integrador.dll
 C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.pdb
 C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.genruntimeconfig.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Dapper.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Npgsql.dll

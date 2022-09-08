@@ -1,22 +1,28 @@
 ﻿using API_Projeto_Integrador.Controllers;
+using Dapper;
+using Npgsql;
+using System.Data;
 
 namespace API_Projeto_Integrador.Repositories
 {
     public class CategoriaRepository : ICategoriaRepository
     {
-        private static List<Categoria> _db = new List<Categoria>()
+        private  IDbConnection _connection;
+        
+        public CategoriaRepository()
         {
-            new Categoria() { Id = 1, Nome = "Teste"}
-        };
+           _connection = new NpgsqlConnection("User ID=postgres;Password=root;Host=localhost;Port=5432;Database=API_Projeto;Pooling=true;Connection Lifetime=0;");
+        }
 
         public List<Categoria> Get()
         {
-            return _db;
+            return _connection.Query<Categoria>("SELECT * FROM CATEGORIA").ToList();
         }
 
         public Categoria Get(int id)
         {
-            throw new NotImplementedException();
+            return _connection.QuerySingleOrDefault<Categoria>("SELECT * FROM CATEGORIA WHERE ID = @id",new{ id = id});
+         
         }
 
         public void Insert(Categoria categoria)

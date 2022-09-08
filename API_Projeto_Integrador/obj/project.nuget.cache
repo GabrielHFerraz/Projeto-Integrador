@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "nyWUgKmnbHUTm9uWjrqNpqoNKYom8uhvzpMqkiSMo04NXOO4W/GZUW6olIt5/pEOO10aNZaJkFR+JQOVc8mQbg==",
+  "dgSpecHash": "fN8XZ9MA3uWu+ziNYAGkFb+tQbDP6K46IOAVWBH33mZOETI/OMqQd8RDGeyPtWltTACkNtRuvDGKeAOZLK52fg==",
   "success": true,
   "projectFilePath": "C:\\Projeto_Integrador\\Projeto-Integrador\\API_Projeto_Integrador\\API_Projeto_Integrador.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
