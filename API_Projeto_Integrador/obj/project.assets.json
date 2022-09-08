@@ -208,23 +208,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amanda\\.nuget\\packages\\": {},
+    "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeto Integrador\\API_Projeto_Integrador\\API_Projeto_Integrador.csproj",
+      "projectUniqueName": "C:\\Projeto_Integrador\\Projeto-Integrador\\API_Projeto_Integrador\\API_Projeto_Integrador.csproj",
       "projectName": "API_Projeto_Integrador",
-      "projectPath": "C:\\Projeto Integrador\\API_Projeto_Integrador\\API_Projeto_Integrador.csproj",
-      "packagesPath": "C:\\Users\\Amanda\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeto Integrador\\API_Projeto_Integrador\\obj\\",
+      "projectPath": "C:\\Projeto_Integrador\\Projeto-Integrador\\API_Projeto_Integrador\\API_Projeto_Integrador.csproj",
+      "packagesPath": "C:\\Users\\gabriel.ferraz\\.nuget\\packages\\",
+      "outputPath": "C:\\Projeto_Integrador\\Projeto-Integrador\\API_Projeto_Integrador\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Amanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabriel.ferraz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -274,7 +274,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
