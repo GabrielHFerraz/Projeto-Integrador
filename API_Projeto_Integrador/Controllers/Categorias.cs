@@ -31,13 +31,14 @@ namespace API_Projeto_Integrador.Controllers
             return Ok(categoria);
         }
 
-        [HttpPost("/cadastro/sensor")]
+        [HttpPost("/cadastro/categoria")]
         public IActionResult Insert([FromBody]Categoria categoria)
         {
             _repository.Insert(categoria);
             return Ok(categoria);
         }
-        [HttpDelete("/delete/sensor")]
+
+        [HttpDelete("/delete/categoria")]
         public IActionResult Delete(int id)
         {
             _repository.Delete(id);
