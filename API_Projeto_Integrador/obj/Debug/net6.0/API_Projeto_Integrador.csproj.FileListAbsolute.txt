@@ -25,3 +25,32 @@ C:\Projeto Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integr
 C:\Projeto Integrador\API_Projeto_Integrador\obj\Debug\net6.0\ref\API_Projeto_Integrador.dll
 C:\Projeto Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.pdb
 C:\Projeto Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.genruntimeconfig.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\appsettings.Development.json
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\appsettings.json
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\API_Projeto_Integrador.exe
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\API_Projeto_Integrador.deps.json
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\API_Projeto_Integrador.runtimeconfig.json
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\API_Projeto_Integrador.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\ref\API_Projeto_Integrador.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\API_Projeto_Integrador.pdb
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.csproj.AssemblyReference.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.AssemblyInfoInputs.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.AssemblyInfo.cs
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.csproj.CoreCompileInputs.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.MvcApplicationPartsAssemblyInfo.cs
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.MvcApplicationPartsAssemblyInfo.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\scopedcss\bundle\API_Projeto_Integrador.styles.css
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.csproj.CopyComplete
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\ref\API_Projeto_Integrador.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.pdb
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\obj\Debug\net6.0\API_Projeto_Integrador.genruntimeconfig.cache
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Dapper.dll
+C:\Projeto_Integrador\Projeto-Integrador\API_Projeto_Integrador\bin\Debug\net6.0\Npgsql.dll
