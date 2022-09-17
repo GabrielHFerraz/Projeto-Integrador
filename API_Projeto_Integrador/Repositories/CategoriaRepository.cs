@@ -11,7 +11,7 @@ namespace API_Projeto_Integrador.Repositories
         
         public CategoriaRepository()
         {
-           _connection = new NpgsqlConnection("User ID=postgres;Password=root;Host=localhost;Port=5432;Database=API_Projeto;Pooling=true;Connection Lifetime=0;");
+           _connection = new NpgsqlConnection("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=Projeto_Integrador;Pooling=true;Connection Lifetime=0;");
         }
 
         public List<Categoria> Get()
@@ -27,7 +27,7 @@ namespace API_Projeto_Integrador.Repositories
 
         public void Insert(Categoria categoria)
         {
-            string sql = "INSERT INTO CATEGORIA (Nome)values(@Nome)";
+            string sql = "INSERT INTO CATEGORIA (Nome,Tipo)values(@Nome,@Tipo)";
              _connection.Query(sql, categoria);
         }
 
