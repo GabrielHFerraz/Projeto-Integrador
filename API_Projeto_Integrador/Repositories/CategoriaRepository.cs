@@ -1,4 +1,5 @@
 ﻿using API_Projeto_Integrador.Controllers;
+using API_Projeto_Integrador.Models;
 using Dapper;
 using Npgsql;
 using System.Data;
@@ -11,7 +12,7 @@ namespace API_Projeto_Integrador.Repositories
         
         public CategoriaRepository()
         {
-           _connection = new NpgsqlConnection("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=api_projeto;Pooling=true;Connection Lifetime=0;");
+           _connection = new NpgsqlConnection("User ID=postgres;Password=root;Host=localhost;Port=5432;Database=API_Projeto;Pooling=true;Connection Lifetime=0;");
         }
 
         public List<Categoria> Get()

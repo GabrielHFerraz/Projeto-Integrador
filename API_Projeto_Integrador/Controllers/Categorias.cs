@@ -1,4 +1,5 @@
-﻿using API_Projeto_Integrador.Repositories;
+﻿using API_Projeto_Integrador.Models;
+using API_Projeto_Integrador.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

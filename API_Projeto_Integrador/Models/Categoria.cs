@@ -1,4 +1,4 @@
-﻿namespace API_Projeto_Integrador.Controllers
+﻿namespace API_Projeto_Integrador.Models
 {
     public class Categoria
     {
