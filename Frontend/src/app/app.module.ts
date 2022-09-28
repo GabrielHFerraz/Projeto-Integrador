@@ -12,13 +12,20 @@ import { NavComponent } from './components/template/nav/nav.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import { SensorReadComponent } from './components/sensor-read/sensor-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    SensorReadComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +34,11 @@ import {MatIconModule} from '@angular/material/icon';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
