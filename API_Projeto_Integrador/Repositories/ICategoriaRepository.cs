@@ -1,4 +1,4 @@
-﻿using API_Projeto_Integrador.Controllers;
+﻿using API_Projeto_Integrador.Models;
 
 namespace API_Projeto_Integrador.Repositories
 {

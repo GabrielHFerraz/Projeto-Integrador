@@ -7,12 +7,13 @@ namespace API_Projeto_Integrador.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class Categorias : ControllerBase
+    public class Sensores : ControllerBase
     {
-        private ICategoriaRepository _repository;
-        public Categorias()
+        private ISensorRepository _repository;
+
+        public Sensores()
         {
-            _repository = new CategoriaRepository();
+            _repository = new SensorRepository();
         }
 
         [HttpGet]
@@ -20,26 +21,26 @@ namespace API_Projeto_Integrador.Controllers
         {
             return Ok(_repository.Get());
         }
-  
-        [HttpGet("/categoria/{id}")]
+
+        [HttpGet("/sensor/{id}")]
         public IActionResult Get(int id)
         {
-            var categoria = _repository.Get(id);
-            if(categoria == null)
+            var sensor = _repository.Get(id);
+            if (sensor == null)
             {
                 return NotFound();
             }
-            return Ok(categoria);
+            return Ok(sensor);
         }
 
-        [HttpPost("/cadastro/categoria")]
-        public IActionResult Insert([FromBody]Categoria categoria)
+        [HttpPost("/cadastro/sensor")]
+        public IActionResult Insert([FromBody] Sensor sensor)
         {
-            _repository.Insert(categoria);
-            return Ok(categoria);
+            _repository.Insert(sensor);
+            return Ok(sensor);
         }
 
-        [HttpDelete("/delete/categoria")]
+        [HttpDelete("/delete/sensor")]
         public IActionResult Delete(int id)
         {
             _repository.Delete(id);
