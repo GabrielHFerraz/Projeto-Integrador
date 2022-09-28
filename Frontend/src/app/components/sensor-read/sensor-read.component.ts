@@ -9,7 +9,7 @@ import { Sensor } from './sensor.model';
 })
 export class SensorReadComponent implements OnInit {
   
-  sensors: Sensor[] = [];
+  sensors: Sensor[] = []
   
   constructor(private sensorService: SensorService ) { }
 
