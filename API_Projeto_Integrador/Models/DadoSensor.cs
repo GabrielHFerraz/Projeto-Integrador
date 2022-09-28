@@ -6,5 +6,6 @@
         public int Id_Sensor { get; set; }
         public float Valor { get; set; }
         public bool estado { get; set; }
+        public DateTime data_alteracao { get; set; }
     }
 }

@@ -1,30 +1,41 @@
 ﻿using API_Projeto_Integrador.Models;
+using Dapper;
+using Npgsql;
+using System.Data;
 
 namespace API_Projeto_Integrador.Repositories
 {
-    public class DadoSensorRepository : ISensorRepository
+    public class DadoSensorRepository : IDadoSensorRepository
     {
-        public List<Sensor> Get()
+        private IDbConnection _connection;
+
+        public DadoSensorRepository()
         {
-            throw new NotImplementedException();
+            _connection = new NpgsqlConnection("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=Projeto_Integrador;Pooling=true;Connection Lifetime=0;");
         }
 
-        public Sensor Get(int id)
+        public List<DadoSensor> Get()
         {
-            throw new NotImplementedException();
+            return _connection.Query<DadoSensor>("SELECT * FROM DadoSensor").ToList();
         }
 
-        public void Insert(Sensor sensor)
+        public DadoSensor Get(int id)
         {
-            throw new NotImplementedException();
+            return _connection.QuerySingleOrDefault<DadoSensor>("SELECT * FROM DadoSensor WHERE ID = @id", new { id = id });
         }
 
-        public void Update(Sensor sensor)
+        public void Insert(DadoSensor dadoSensor)
         {
-            throw new NotImplementedException();
+            string sql = "INSERT INTO DADOSENSOR (Valor,Estado)values(@Valor,@Estado)";
+            _connection.Query(sql, dadoSensor);
         }
 
         public void Delete(int id)
+        {
+            _connection.Query("DELETE FROM DadoSensor WHERE ID = @id", new { id = id });
+        }
+
+        public void Update(DadoSensor sensor)
         {
             throw new NotImplementedException();
         }
