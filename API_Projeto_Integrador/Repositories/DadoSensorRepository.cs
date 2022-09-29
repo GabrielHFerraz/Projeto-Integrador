@@ -11,7 +11,7 @@ namespace API_Projeto_Integrador.Repositories
 
         public DadoSensorRepository()
         {
-            _connection = new NpgsqlConnection("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=Projeto_Integrador;Pooling=true;Connection Lifetime=0;");
+            _connection = new NpgsqlConnection("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=API_Projeto;Pooling=true;Connection Lifetime=0;");
         }
 
         public List<DadoSensor> Get()

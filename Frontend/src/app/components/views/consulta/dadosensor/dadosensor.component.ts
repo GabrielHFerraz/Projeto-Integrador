@@ -13,7 +13,7 @@ export class DadosensorComponent implements OnInit {
   
   constructor(private dadosensorService: DadosensorService ) { }
 
-  displayedColumns = ['id','valor','status','data_dado'] 
+  displayedColumns = ['id','valor','estado','data_dado'] 
 
   ngOnInit(): void {
     this.dadosensorService.read().subscribe(dadoSensor =>{this.dadoSensor = dadoSensor});

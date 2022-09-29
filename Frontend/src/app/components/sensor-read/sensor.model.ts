@@ -1,5 +1,6 @@
 export interface Sensor {
     id?: number;
     nome: string;
-    tipo:number;
+    id_categoria:number;
+    data_alteracao:string;
 }

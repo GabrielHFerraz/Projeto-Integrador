@@ -11,7 +11,7 @@ namespace API_Projeto_Integrador.Repositories
 
         public SensorRepository()
         {
-            _connection = new NpgsqlConnection("User ID=postgres;Password=root;Host=localhost;Port=5432;Database=API_Projeto;Pooling=true;Connection Lifetime=0;");
+            _connection = new NpgsqlConnection("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=API_Projeto;Pooling=true;Connection Lifetime=0;");
         }
 
         public List<Sensor> Get()
@@ -26,7 +26,7 @@ namespace API_Projeto_Integrador.Repositories
 
         public void Insert(Sensor sensor)
         {
-            string SQL = ("INSERT INTO SENSOR (Nome,Categoria)Values(@Nome,@Categoria)");
+            string SQL = ("INSERT INTO SENSOR (Nome,id_categoria)Values(@Nome,@id_categoria)");
              _connection.Query(SQL, sensor);
         }
 

@@ -13,7 +13,7 @@ export class SensorReadComponent implements OnInit {
   
   constructor(private sensorService: SensorService ) { }
 
-  displayedColumns = ['id','nome','tipo'] 
+  displayedColumns = ['id','nome','id_categoria','data_alteracao'] 
 
   ngOnInit(): void {
     this.sensorService.read().subscribe(sensors =>{this.sensors = sensors});
