@@ -16,8 +16,14 @@ import { SensorReadComponent } from './components/sensor-read/sensor-read.compon
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import {MatMenuModule} from '@angular/material/menu';
 
 import { HttpClientModule } from '@angular/common/http';
+import { CadastrarComponent } from './components/template/nav/cadastrar/cadastrar/cadastrar.component';
+import { ConsultarComponent } from './components/template/nav/consultar/consultar/consultar.component';
+import { CategoriasComponent } from './components/views/consulta/categorias/categorias.component';
+import { DadosensorComponent } from './components/views/consulta/dadosensor/dadosensor.component';
+
 
 
 @NgModule({
@@ -25,7 +31,11 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     NavComponent,
-    SensorReadComponent
+    SensorReadComponent,
+    CadastrarComponent,
+    ConsultarComponent,
+    CategoriasComponent,
+    DadosensorComponent
   ],
   imports: [
     BrowserModule,
@@ -38,8 +48,10 @@ import { HttpClientModule } from '@angular/common/http';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    HttpClientModule
+    HttpClientModule,
+    MatMenuModule
   ],
+  exports:[MatMenuModule],
   providers: [],
   bootstrap: [AppComponent]
 })

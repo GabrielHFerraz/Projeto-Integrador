@@ -1,0 +1,11 @@
+<button mat-button [matMenuTriggerFor]="menu" class="cadastrar">
+    Cadastrar
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Categoria</button>
+      <button mat-menu-item>Sensor</button>
+      <button mat-menu-item>DadoSensor</button>
+    </mat-menu>
+    <mat-menu #secondLevel="matMenu">
+      <button mat-menu-item routerLink="/inicio" routerLinkActive="active">Tributário</button>
+    </mat-menu>
+  </button>

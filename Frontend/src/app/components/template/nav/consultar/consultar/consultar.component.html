@@ -1,0 +1,11 @@
+<button mat-button [matMenuTriggerFor]="menu" class="consultar">
+    Consultar
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/categorias">Categoria</button>
+      <button mat-menu-item routerLink="/sensores">Sensor</button>
+      <button mat-menu-item routerLink="/dadosensor">DadoSensor</button>
+    </mat-menu>
+    <mat-menu #secondLevel="matMenu">
+      <button mat-menu-item routerLink="/inicio" routerLinkActive="active">Tributário</button>
+    </mat-menu>
+  </button>

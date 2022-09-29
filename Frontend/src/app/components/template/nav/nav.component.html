@@ -7,19 +7,15 @@
                 </mat-icon>
             </mat-list-item>
             <mat-list-item>
-                <mat-icon >
-                    add
-                </mat-icon>
-                Cadastrar
+                <app-cadastrar></app-cadastrar>
             </mat-list-item>
             <mat-list-item>
-                <mat-icon >
-                    delete icon
-                </mat-icon>
-                Excluir
+             <app-consultar></app-consultar>
             </mat-list-item>
         </mat-nav-list>            
     </mat-sidenav>    
     <mat-sidenav-content>
-       <app-sensor-read></app-sensor-read>
+     <router-outlet>
+        
+     </router-outlet>
     </mat-sidenav-content>

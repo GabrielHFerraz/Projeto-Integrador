@@ -1,4 +1,4 @@
-export interface Sensor {
+export interface Categoria {
     id?: number;
     nome: string;
     tipo:number;
